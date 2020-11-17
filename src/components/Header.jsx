@@ -10,7 +10,7 @@ class Header extends Component {
     return (
       <Row className="bg" >
         <Col>
-          <Button href="http://localhost:3000/" variant="outline-light" >Search</Button>
+          <Button href="http://localhost:3000/" variant="outline-light" >Search Home</Button>
         </Col>
       </Row>
     )
