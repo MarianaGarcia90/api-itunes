@@ -1,0 +1,11 @@
+
+.bg {
+  background-color: black;
+  color: #fff;
+  text-align: start;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+a { color: inherit; } 
+
