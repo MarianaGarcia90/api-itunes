@@ -1,6 +1,7 @@
 img {
   width:75%;
   border-radius: 5px 5px 5px 5px;
+
 }
 
 h5 {
@@ -8,19 +9,6 @@ h5 {
   margin-left: 25%;
 }
 
-hr {
-  padding:0;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .img-holder {
-  width: 180px;
-  height: 230px;
+  width: 75%;
 }
-
-.description-book {
-  color: black;
-}
-
-a { color: inherit; } 

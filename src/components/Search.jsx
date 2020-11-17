@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { Row, Col, FormControl } from 'react-bootstrap';
 
 class Search extends Component {

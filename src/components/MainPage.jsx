@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Search from './Search';
 import Header from './Header';
 import ResultBody from './ResultBody';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container} from 'react-bootstrap';
 
 class MainPage extends Component {

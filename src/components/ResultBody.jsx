@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Item from './Item';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container , Alert} from 'react-bootstrap';
 import './../css/resultBody.css';
 

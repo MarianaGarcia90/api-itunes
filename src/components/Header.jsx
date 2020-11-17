@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Row, Col, Button } from 'react-bootstrap';
 import '.././css/header.css';
 
 class Header extends Component {
@@ -9,7 +10,7 @@ class Header extends Component {
     return (
       <Row className="bg" >
         <Col>
-          <button>Search</button>
+          <Button href="http://localhost:3000/" variant="outline-light" >Search</Button>
         </Col>
       </Row>
     )
