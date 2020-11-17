@@ -35,7 +35,9 @@ class Item extends Component {
             </Link>
           </Col>
           <Col xs={4}>
-            <b>{this.getTitulo()}</b>
+          <Link to={{ pathname: `/book/${this.props.trackId}`, detail: this.props }}>
+              {this.getTitulo()}
+            </Link>
             <p>{this.getEscritor()}</p>
             <p>{this.getYear()}</p>
           </Col>

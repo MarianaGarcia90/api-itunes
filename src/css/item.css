@@ -1,7 +1,7 @@
 img {
   width:75%;
   border-radius: 5px 5px 5px 5px;
-
+  margin-top: 10px;
 }
 
 h5 {
@@ -11,4 +11,9 @@ h5 {
 
 .img-holder {
   width: 75%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
